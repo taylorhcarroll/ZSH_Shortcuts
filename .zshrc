@@ -84,6 +84,9 @@ gic() {
 alias jserv='json-server -p 8088 -w'
 #go to this in a browser http://localhost:8088/#
 
+#starts jmeter
+alias open_jmeter="open /usr/local/bin/jmeter"
+
 # Defined 'code' here due to issue on work machine where the shell command for VS Code will not persist when terminal and VS code is closed/re-opened
 ## will attempt to resolve later, possible /usr/local/bin/code/ is not installed properly?
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
