@@ -29,6 +29,9 @@ alias customize="code ~/.zshrc"
 #takes me back to root
 alias gohome="cd ~"
 
+#go straight to your dev directory, adjust as needed for how your file structure is organized
+alias dev="cd ~/Documents/Github"
+
 # creates basic directory with HTML, CSS, and JS, links the CSS and JS sheets and opens Visual Studio
 cbc() {
    mkdir src
