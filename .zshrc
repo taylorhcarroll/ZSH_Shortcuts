@@ -90,8 +90,7 @@ code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
 #END IN USE##################################################################
 
-#Troubleshooting####################
-
+#BEGIN TROUBLESHOOTING####################
 
 ##If you see this: 
 # [oh-my-zsh] Insecure completion-dependent directories detected: drwxrwxr-x 3 
@@ -115,6 +114,7 @@ code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 #Open Terminal -> Preferences -> General
 #Under "Shells open with" select "Command (complete path):
 #paste in "/bin/zsh"
-###################################
+
+#END TROUBLESHOOTING###################################
 
 
